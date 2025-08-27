@@ -89,7 +89,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -113,13 +113,13 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 40px 40px;
+  justify-content: center;
+  gap: 40px;
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 .card {
@@ -152,6 +152,7 @@
 }
 
 .card__footer {
+  margin: 0;
   margin-top: auto;
   font-size: 14px;
   line-height: 20px;
