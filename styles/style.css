@@ -306,7 +306,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 52px;
 }
 
@@ -345,7 +345,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 80px 60px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
